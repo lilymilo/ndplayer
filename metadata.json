@@ -1,0 +1,6 @@
+{
+  "name": "Retro Nintendo Music Player",
+  "description": "Multi-screen retro style 8-bit music player mimicking classic NES/Game Boy aesthetics with tracks, custom console UI, stages list, and retro radio tuner.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+/* Classic Retro Keyframes */
+@keyframes wave {
+  0%, 100% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes equalizer {
+  0% {
+    transform: scaleY(0.2);
+  }
+  100% {
+    transform: scaleY(1.1);
+  }
+}
+
+/* Custom utility configurations for layout */
+.inset-shadow {
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.text-shadow-lcd {
+  text-shadow: 1px 1px 0px rgba(139, 172, 15, 0.2);
+}
+
+/* Font styles */
+.font-pressstart {
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* Customized animated styles scale */
+.animate-equaleter-bar {
+  transform-origin: bottom;
+  animation: equalizer 0.5s ease-in-out infinite alternate;
+}
+
